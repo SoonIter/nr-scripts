@@ -1,0 +1,29 @@
+{
+  "name": "@pluggable-cli/core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cli": "bin/cli.js"
+  },
+  "scripts": {
+    "bin": "node bin/cli.js",
+    "build": "rm -rf ./dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "tapable":"^2.2.1",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@types/yargs":"^17.0.22",
+    "@types/fs-extra":"^11.0.1"
+  },
+  "peerDependencies": {
+    "yargs": "^17.7.1"
+  }
+}

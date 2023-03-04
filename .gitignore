@@ -1,0 +1,11 @@
+node_modules
+dist
+# moon
+.moon/cache
+.moon/docker
+
+# xtrace profile
+Launch_*
+target
+
+*.tsbuildinfo

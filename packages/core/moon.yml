@@ -1,0 +1,13 @@
+language: typescript
+
+tasks:
+  build:
+    command: 'pnpm run build'
+    inputs: ['src/**/*', 'package.json', 'tsconfig.json']
+    outputs: ['dist']
+    deps:
+      - '^:build'
+  bin:
+    command: 'pnpm run bin' 
+    deps:
+      - '^:build'

@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+  },
+  "extends": "tsconfig-moon/tsconfig.projects.json"
+}

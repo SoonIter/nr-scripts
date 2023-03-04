@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.options.json",
+  "compilerOptions": {
+		"emitDeclarationOnly": false,
+		"noEmit": true
+  },
+  "parserOptions": {
+    "extraFileExtensions": [".mjs"]
+  },
+  "include": [
+    "**/.eslintrc.js",
+    "prettier.config.js",
+    "packages/*/src/**/*",
+    "packages/*/tests/**/*",
+    "packages/*/types/**/*",
+    "packages/*/*",
+    "scripts/**/*",
+    "website/src/**/*",
+    "website/*.js"
+  ]
+}

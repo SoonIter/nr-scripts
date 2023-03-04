@@ -1,0 +1,7 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "moon.binPath": "node_modules/.bin/moon",
+  "yaml.schemas": {
+    "https://moonrepo.dev/schemas/project.json":["moon.yaml","moon.yml"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.options.json",
+  "include": [
+    "**/*"
+  ],
+  "exclude": [
+    "bin",
+    "dist"
+  ],
+  "references": [],
+  "compilerOptions": {
+    "target": "ES6",
+    "outDir": "dist",
+    "rootDir": "src",
+    "declaration": true,
+    "emitDeclarationOnly": false,
+    "declarationMap": false,
+    "tsBuildInfoFile": "tsconfig.tsbuildinfo"
+  }
+}
